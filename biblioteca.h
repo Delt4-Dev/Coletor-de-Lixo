@@ -1,8 +1,6 @@
 /*Trab de LP 30/05/23 feito por:Claudio rodrigues nunes e Fábio Borges da Silva Gonçalves
 
-O trabalho tem por fim simular um coletor de lixo por referência está é a biblioteca onde está definido a struct refcount. 
-
-aqui você pode conferir */
+O trabalho tem por fim simular um coletor de lixo por referência está é a biblioteca onde está definido a struct refcount. */
 
 #ifndef BIBLIOTECA_H_INCLUDED
 #define BIBLIOTECA_H_INCLUDED
