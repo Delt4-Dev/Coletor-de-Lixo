@@ -1,4 +1,8 @@
-/* */
+/*Trab de LP 30/05/23 feito por:Claudio rodrigues nunes e Fábio Borges da Silva Gonçalves
+
+O trabalho tem por fim simular um coletor de lixo por referência está é a biblioteca onde estão definidas as funções onde será feito a alocação de
+memória, contagem de referencias, limpezas e etc. Está tudo mais bem comentado abaixo.*/
+
 #include"biblioteca.h"
 
 refcount *refcount_list = NULL;
@@ -45,7 +49,7 @@ void *atrib2(void *end1, void *end2){ //recebe dois valores
     return end2;
 }
 
-void contfix(void *end1, int m){ // vai ajustar as referencias de acordo com s variaveis.
+void contfix(void *end1, int m){ // vai ajustar as referencias de acordo com as variaveis.
     refcount *aux = refcount_list;
     while(aux != NULL){
         if(aux->endereco == end1){
